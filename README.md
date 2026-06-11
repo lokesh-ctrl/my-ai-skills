@@ -25,10 +25,10 @@ claude plugin marketplace add /path/to/my-ai-skills
 claude plugin install my-skills@my-ai-skills
 ```
 
-**Option B — from GitHub** (once pushed to GitHub as `<user>/my-ai-skills`):
+**Option B — from GitHub:**
 
 ```bash
-claude plugin marketplace add <user>/my-ai-skills
+claude plugin marketplace add lokesh-ctrl/my-ai-skills
 claude plugin install my-skills@my-ai-skills
 ```
 
@@ -57,6 +57,13 @@ description: One-line description of what this skill does
    claude plugin install my-skills@my-ai-skills
    ```
    (Local directory plugins snapshot on install, so uninstall+reinstall is needed to sync new skills.)
+
+## Skills
+
+| Skill | Description |
+|---|---|
+| `plan-with-me` | Interview-driven planning before any implementation. Waits for approval before writing code. |
+| `update-project-memory` | Keeps `.claude/skills/PROJECT-STATE.md` in sync after structural changes. |
 
 ## Using skills
 

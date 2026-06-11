@@ -1,0 +1,9 @@
+{
+  "name": "my-skills",
+  "description": "Personal Claude Code skills — portable across machines.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Lokesh R"
+  },
+  "skills": "./skills"
+}

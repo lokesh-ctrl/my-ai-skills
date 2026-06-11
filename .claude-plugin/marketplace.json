@@ -1,0 +1,13 @@
+{
+  "name": "my-ai-skills",
+  "owner": {
+    "name": "Lokesh R"
+  },
+  "plugins": [
+    {
+      "name": "my-skills",
+      "source": "./my-skills",
+      "description": "Personal Claude Code skills — portable across machines."
+    }
+  ]
+}
